@@ -5,6 +5,8 @@ VisualStudioVersion = 17.1.32421.90
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Linq", "Linq\Linq.csproj", "{4242EFB4-396A-4CB2-AEDB-B4E24DD5B634}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoopFindElements", "LoopFindElements\LoopFindElements.csproj", "{99DF065A-5815-41C1-9893-648B60D2CABF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{4242EFB4-396A-4CB2-AEDB-B4E24DD5B634}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4242EFB4-396A-4CB2-AEDB-B4E24DD5B634}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4242EFB4-396A-4CB2-AEDB-B4E24DD5B634}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99DF065A-5815-41C1-9893-648B60D2CABF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99DF065A-5815-41C1-9893-648B60D2CABF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99DF065A-5815-41C1-9893-648B60D2CABF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99DF065A-5815-41C1-9893-648B60D2CABF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
