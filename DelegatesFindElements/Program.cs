@@ -75,6 +75,16 @@ namespace DelegatesFindElements
                     Console.WriteLine("Student : {0} And Age: {1}", std.StudentName,std.Age);
                 }
             }
+            Console.WriteLine("\n\n\n");//new filter with lambda expressions
+            Student[] teenAgerStudents = studentArray.Where(s => s.Age > 12 && s.Age < 20).ToArray();
+
+            // Use LINQ to find first student whose name is Bill 
+            Student bill = studentArray.Where(s => s.StudentName == "Bill").FirstOrDefault();
+
+            Console.WriteLine("Student Bill: {0}\nAge:{1}",bill.StudentName,bill.Age);
+            // Use LINQ to find student whose StudentID is 5
+            Student student5 = studentArray.Where(s => s.StudentID == 5).FirstOrDefault();
+            Console.WriteLine("Student id 5 : {0}\nAge:{1}", student5.StudentName, student5.Age);
             Console.ReadKey();
         }
     }
