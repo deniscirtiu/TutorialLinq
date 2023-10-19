@@ -46,10 +46,11 @@ namespace DelegatesFindElements
             new Student() { StudentID = 6, StudentName = "Chris",  Age = 17 } ,
             new Student() { StudentID = 7, StudentName = "Rob",Age = 19  } ,
         };
-
+            //filter
             Student[] students = StudentExtension.where(studentArray, delegate (Student std) {
                 return std.Age > 12 && std.Age < 20;
             });
+            //show it to console
             Console.WriteLine("Students in age between 12 and 20");
 
             foreach (Student std in students)
@@ -57,6 +58,21 @@ namespace DelegatesFindElements
                 if (std != null)
                 {
                     Console.WriteLine("Student : {0}", std.StudentName);
+                }
+            }
+            //added for another filter
+            Student[] students2 = StudentExtension.where(studentArray, delegate (Student std) {
+                return std.StudentName == "Bill";
+            });
+
+            //show it to console
+            Console.WriteLine("\n\nStudents who's name is Bill:");
+
+            foreach (Student std in students2)
+            {
+                if (std != null)
+                {
+                    Console.WriteLine("Student : {0} And Age: {1}", std.StudentName,std.Age);
                 }
             }
             Console.ReadKey();
