@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqQuerySyntax", "LinqQuer
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqMethodSyntax", "LinqMethodSyntax\LinqMethodSyntax.csproj", "{444841E1-5368-4F37-B607-9BC139B3963A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LambdaExpression", "LambdaExpression\LambdaExpression.csproj", "{89949253-F118-479A-ADE9-ED243E1B9ED9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{444841E1-5368-4F37-B607-9BC139B3963A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{444841E1-5368-4F37-B607-9BC139B3963A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{444841E1-5368-4F37-B607-9BC139B3963A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89949253-F118-479A-ADE9-ED243E1B9ED9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89949253-F118-479A-ADE9-ED243E1B9ED9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89949253-F118-479A-ADE9-ED243E1B9ED9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89949253-F118-479A-ADE9-ED243E1B9ED9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
