@@ -16,15 +16,28 @@ public class Program
 			"Java"
 		};
 
-		// LINQ Method Syntax
-		var result = stringList.Where(s => s.Contains("Tutorials"));
+        // LINQ Method Syntax
+        var result = stringList.Where(s => s.Contains("Tutorials"));
+		IList<string> stringList2 = new List<string>();
 
 
-		foreach (var str in result)
+		foreach (string s in stringList)
 		{
-			Console.WriteLine(str);
+			if(s.Contains("Tutorials"))
+				stringList2.Add(s);
 		}
 
-		Console.ReadKey();
+
+
+        foreach (var str in result)
+        {
+            Console.WriteLine(str);
+        }
+        foreach (var str in stringList2)
+        {
+            Console.WriteLine(str);
+        }
+
+        Console.ReadKey();
 	}
 }
