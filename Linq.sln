@@ -43,6 +43,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Average", "Average\Average.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Count", "Count\Count.csproj", "{F355C10F-170C-4B2A-99EE-D2B3E27497A1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Max", "Max\Max.csproj", "{83AB21F3-BC9A-48DB-9709-A6A8032833B4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -129,6 +131,10 @@ Global
 		{F355C10F-170C-4B2A-99EE-D2B3E27497A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F355C10F-170C-4B2A-99EE-D2B3E27497A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F355C10F-170C-4B2A-99EE-D2B3E27497A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83AB21F3-BC9A-48DB-9709-A6A8032833B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83AB21F3-BC9A-48DB-9709-A6A8032833B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83AB21F3-BC9A-48DB-9709-A6A8032833B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83AB21F3-BC9A-48DB-9709-A6A8032833B4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
