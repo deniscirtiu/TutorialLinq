@@ -45,6 +45,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Count", "Count\Count.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Max", "Max\Max.csproj", "{83AB21F3-BC9A-48DB-9709-A6A8032833B4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sum", "Sum\Sum.csproj", "{A2E74A1E-397F-453E-BDDA-205AFEDBCBA5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElementAt", "ElementAt\ElementAt.csproj", "{E94E3DF9-7585-4DBE-9C8C-7F83DD9EAB4B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -135,6 +139,14 @@ Global
 		{83AB21F3-BC9A-48DB-9709-A6A8032833B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{83AB21F3-BC9A-48DB-9709-A6A8032833B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{83AB21F3-BC9A-48DB-9709-A6A8032833B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2E74A1E-397F-453E-BDDA-205AFEDBCBA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2E74A1E-397F-453E-BDDA-205AFEDBCBA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2E74A1E-397F-453E-BDDA-205AFEDBCBA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2E74A1E-397F-453E-BDDA-205AFEDBCBA5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E94E3DF9-7585-4DBE-9C8C-7F83DD9EAB4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E94E3DF9-7585-4DBE-9C8C-7F83DD9EAB4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E94E3DF9-7585-4DBE-9C8C-7F83DD9EAB4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E94E3DF9-7585-4DBE-9C8C-7F83DD9EAB4B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
