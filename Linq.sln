@@ -49,6 +49,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sum", "Sum\Sum.csproj", "{A
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElementAt", "ElementAt\ElementAt.csproj", "{E94E3DF9-7585-4DBE-9C8C-7F83DD9EAB4B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirstOrDefault", "FirstOrDefault\FirstOrDefault.csproj", "{6CACA4C0-F2C1-421D-B5C4-4984E45D0806}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -147,6 +149,10 @@ Global
 		{E94E3DF9-7585-4DBE-9C8C-7F83DD9EAB4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E94E3DF9-7585-4DBE-9C8C-7F83DD9EAB4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E94E3DF9-7585-4DBE-9C8C-7F83DD9EAB4B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CACA4C0-F2C1-421D-B5C4-4984E45D0806}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CACA4C0-F2C1-421D-B5C4-4984E45D0806}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CACA4C0-F2C1-421D-B5C4-4984E45D0806}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CACA4C0-F2C1-421D-B5C4-4984E45D0806}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
