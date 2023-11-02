@@ -85,6 +85,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkipSkipWhile", "Skip\SkipS
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TakeTakeWhile", "TakeTakeWhile\TakeTakeWhile.csproj", "{BEED43DD-0CFE-4BAA-9C33-4C7CF624685D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsEnumerableAsQueryable", "AsEnumerableAsQueryable\AsEnumerableAsQueryable.csproj", "{11B48AC2-81BF-480B-A0D5-668307BCAA49}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cast", "Cast\Cast.csproj", "{93F5D558-5636-449D-95D8-D9E14CC05CC4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -255,6 +259,14 @@ Global
 		{BEED43DD-0CFE-4BAA-9C33-4C7CF624685D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BEED43DD-0CFE-4BAA-9C33-4C7CF624685D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BEED43DD-0CFE-4BAA-9C33-4C7CF624685D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11B48AC2-81BF-480B-A0D5-668307BCAA49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11B48AC2-81BF-480B-A0D5-668307BCAA49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11B48AC2-81BF-480B-A0D5-668307BCAA49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11B48AC2-81BF-480B-A0D5-668307BCAA49}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93F5D558-5636-449D-95D8-D9E14CC05CC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93F5D558-5636-449D-95D8-D9E14CC05CC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93F5D558-5636-449D-95D8-D9E14CC05CC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93F5D558-5636-449D-95D8-D9E14CC05CC4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
