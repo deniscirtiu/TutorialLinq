@@ -81,6 +81,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntersectStudent", "Interse
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Union", "Union\Union.csproj", "{847F3E0B-5965-47C2-9D8B-BC9A41618C9F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkipSkipWhile", "Skip\SkipSkipWhile.csproj", "{62036B45-8EF5-4AA8-A933-BE133CB2FAE4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TakeTakeWhile", "TakeTakeWhile\TakeTakeWhile.csproj", "{BEED43DD-0CFE-4BAA-9C33-4C7CF624685D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -243,6 +247,14 @@ Global
 		{847F3E0B-5965-47C2-9D8B-BC9A41618C9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{847F3E0B-5965-47C2-9D8B-BC9A41618C9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{847F3E0B-5965-47C2-9D8B-BC9A41618C9F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62036B45-8EF5-4AA8-A933-BE133CB2FAE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62036B45-8EF5-4AA8-A933-BE133CB2FAE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62036B45-8EF5-4AA8-A933-BE133CB2FAE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62036B45-8EF5-4AA8-A933-BE133CB2FAE4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BEED43DD-0CFE-4BAA-9C33-4C7CF624685D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEED43DD-0CFE-4BAA-9C33-4C7CF624685D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEED43DD-0CFE-4BAA-9C33-4C7CF624685D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEED43DD-0CFE-4BAA-9C33-4C7CF624685D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
