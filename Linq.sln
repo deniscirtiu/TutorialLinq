@@ -89,6 +89,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsEnumerableAsQueryable", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cast", "Cast\Cast.csproj", "{93F5D558-5636-449D-95D8-D9E14CC05CC4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToOperators", "ToOperators\ToOperators.csproj", "{45A9E679-9F81-480E-A7AC-8FB4A88F8092}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -267,6 +269,10 @@ Global
 		{93F5D558-5636-449D-95D8-D9E14CC05CC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{93F5D558-5636-449D-95D8-D9E14CC05CC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{93F5D558-5636-449D-95D8-D9E14CC05CC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45A9E679-9F81-480E-A7AC-8FB4A88F8092}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45A9E679-9F81-480E-A7AC-8FB4A88F8092}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45A9E679-9F81-480E-A7AC-8FB4A88F8092}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45A9E679-9F81-480E-A7AC-8FB4A88F8092}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
