@@ -14,6 +14,10 @@ public class Program
         bool result = isTeenAger(new Student() { StudentID = 1, StudentName = "Steve", Age = 20 });
 
         Console.WriteLine(result);
+
+        bool result2 = isTeenAger(new Student() { StudentID = 2, StudentName ="denis", Age=17 });
+        
+        Console.WriteLine(result2);
         Console.ReadKey();
     }
 }
