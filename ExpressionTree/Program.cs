@@ -30,6 +30,23 @@ namespace ExpressionTree
                                             ExpressionTree.Parameters.Count);
 
             Console.WriteLine("Parameters in Expression Tree: {0}", ExpressionTree.Parameters[0]);
+
+            Console.WriteLine("===============Another method of teenager===============");
+            //try with querry form the site and try to generate on my own
+            IList<Student> Students = new List<Student>
+            {
+                new Student() { Age = 11, StudentId = 1, StudentName = "DNSSS" },
+                new Student() { Age = 20, StudentId = 2, StudentName = "DNSS1" },
+                new Student() { Age = 40, StudentId = 3, StudentName = "DNSS2" }
+            };
+
+            var query = from s  in Students
+                        where s.Age >= 18
+                        select s.StudentName;
+
+            query.ToList().ForEach(n => Console.WriteLine(n));
+            //Console.WriteLine(query);
+
             Console.ReadKey();
         }
     }
